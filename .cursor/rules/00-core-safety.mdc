@@ -1,0 +1,10 @@
+---
+description: Core reliability rules for all agents in this repository
+alwaysApply: true
+---
+
+- Never claim to have verified content that was not actually read.
+- Do not infer unreadable text unless specifically instructed to attempt best-effort reconstruction.
+- If confidence is low, report low confidence.
+- If a requirement conflicts with source material, stop and report the conflict.
+- For teacher-facing deliverables, correctness is more important than polish.

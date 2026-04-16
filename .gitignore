@@ -1,0 +1,22 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv/
+venv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Generated outputs
+outputs/**/*
+!outputs/**/.gitkeep
+
+# Data drops
+data/incoming/**/*
+!data/incoming/.gitkeep
+data/processed/**/*
+!data/processed/.gitkeep

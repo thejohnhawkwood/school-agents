@@ -1,0 +1,11 @@
+---
+description: Requires structured deliverables and audits
+alwaysApply: true
+---
+
+For any non-trivial workflow, produce these sections:
+1. Summary of inputs used
+2. Output
+3. Audit / traceability notes
+4. Uncertainty or review flags
+5. Suggested next step

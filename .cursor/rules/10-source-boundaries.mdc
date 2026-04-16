@@ -1,0 +1,8 @@
+---
+description: Prevents lesson drift and unsupported content generation
+alwaysApply: true
+---
+
+- Use only the files and ranges explicitly allowed by the task.
+- Do not pull from nearby slides, adjacent lessons, prior units, or background knowledge unless the task explicitly allows it.
+- Every generated question, key point, or lab linkage must be traceable to source material or clearly marked as a proposal.

@@ -22,3 +22,12 @@ Rules:
 - Do not hide uncertainty.
 - Use templates where available.
 - Favor narrow, reliable outputs over broad, risky ones.
+
+Standard agent contract (required in final response):
+1. In scope
+2. Out of scope
+3. Completed (what was done)
+4. Not completed (what was not done)
+5. Assumptions and decisions
+6. Risks or uncertainty
+7. Suggested next action

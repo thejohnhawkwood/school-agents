@@ -14,6 +14,14 @@ This workflow is for:
 - homework packs/packages
 - third-party/online content without provided keys
 
+## Ingestion and image interpretation rules
+- During ingestion, treat text, tables, diagrams, charts, screenshots, and scanned pages as potential source evidence.
+- Use image interpretation when source meaning depends on visual content (for example: labelled diagrams, graphs, math work shown in images, scan-only worksheets, or image-heavy slides).
+- Extract visual evidence into explicit notes before key generation.
+- If visual content is unclear, record low confidence and do not invent missing labels, values, or relationships.
+- When a keyed answer depends on interpreted image content, include that dependency in source support references.
+- If image interpretation conflicts with nearby text, flag the conflict and request teacher review.
+
 ## Authority and source rules
 - Teacher-provided files and instructions are the primary authority.
 - Do not contradict explicit teacher constraints.
@@ -52,6 +60,7 @@ Produce sections in this order:
 1. Summary of inputs used
    - files and ranges used
    - instructions/constraints applied
+   - image/scan sources interpreted (if any)
 
 2. Keyed answers
    - organized by question number
@@ -59,6 +68,7 @@ Produce sections in this order:
 
 3. Audit / traceability notes
    - mapping of key points to source material
+   - image-derived evidence notes (when used)
    - external references used to resolve ambiguity (if any)
 
 4. Uncertainty and review flags
@@ -73,3 +83,12 @@ Produce sections in this order:
 - If critical source material is missing or unreadable, do not fabricate a full key.
 - Return a partial key only for supported items, clearly marked.
 - Provide a short list of exactly what is needed to complete the key.
+
+## Standard agent contract (required in final response)
+1. In scope
+2. Out of scope
+3. Completed (what was done)
+4. Not completed (what was not done)
+5. Assumptions and decisions
+6. Risks or uncertainty
+7. Suggested next action

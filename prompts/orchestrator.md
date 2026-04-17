@@ -15,6 +15,7 @@ Workflow types:
 - scan_collation
 - lab_design
 - cts_module_build
+- teacher_keying
 
 Rules:
 - Do not generate before confirming source boundaries.

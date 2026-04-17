@@ -38,3 +38,18 @@ For each workflow, produce:
 - Do not drift into generic filler.
 - Keep assignments concrete and copy-pastable.
 - Keep teacher keys concise and supportable.
+
+## Workflow patterns
+
+Supported workflow patterns in this repository include:
+- lesson homework generation
+- scan collation and review
+- science lab design
+- CTS module build
+- teacher keying and solution support
+
+For teacher keying workflows:
+- Treat teacher-provided material as authoritative.
+- External knowledge may be used only to resolve ambiguity and must be flagged when used.
+- Final keyed answers must preserve appropriate significant figures for calculated values.
+- Provide both teacher-facing clarity and student-facing steps/explanations.

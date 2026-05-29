@@ -1,0 +1,324 @@
+{
+  "source_book_slug": "biology-2e",
+  "source_book_title": "Biology 2e",
+  "source_publisher": "OpenStax, Rice University",
+  "items": {
+    "Q01": {
+      "pass1": {
+        "target_curriculum_outcome": "20–C2.2k",
+        "intended_concept": "Mitochondrial chemiosmosis: ETC establishes a proton gradient; ATP synthase couples H+ return to ATP formation",
+        "item_skill": "Read membrane diagram and justify where H+ concentration is higher relative to the matrix",
+        "image_role": "evidence_required",
+        "visual_features_required": [
+          "inner mitochondrial membrane with embedded complexes",
+          "ATP synthase depicted as a channel through the inner membrane",
+          "intermembrane space and matrix regions distinguishable",
+          "directional proton pumping consistent with textbook ETC layout"
+        ],
+        "forbidden_mismatches": [
+          "chloroplast / thylakoid-only diagram",
+          "figure with no ATP synthase or no inner membrane",
+          "figure labeled only as photosystem Z-scheme",
+          "figure showing only ATP synthase with no ETC proton-pumping complexes visible"
+        ],
+        "why_the_image_is_needed_for_this_item": "The keyed answer requires students to connect higher H+ in the intermembrane space to ETC pumping shown in the diagram, not generic recall alone."
+      },
+      "pass2": {
+        "figure_caption_verified": "Figure 7.4 (variant): ETC, proton pumping into the intermembrane space, and chemiosmosis through ATP synthase (OpenStax Biology 2e bundle media filename Figure_07_04_03-5144.png).",
+        "actual_visual_read": {
+          "figure_type": "mitochondrial inner membrane: electron transport chain plus proton gradient and ATP synthase",
+          "visible_features": [
+            "inner membrane with ETC complexes (I–IV) and mobile carriers",
+            "H⁺ pumping from matrix into intermembrane space",
+            "higher H⁺ concentration implied or shown in intermembrane space",
+            "ATP synthase with H⁺ return flow toward matrix",
+            "electron path from NADH/FADH₂ toward O₂"
+          ],
+          "readable_labels": [
+            "intermembrane space",
+            "mitochondrial matrix",
+            "inner mitochondrial membrane",
+            "Complex I", "Complex II", "Complex III", "Complex IV",
+            "ATP synthase",
+            "H⁺", "e⁻",
+            "NADH", "FADH₂", "O₂", "H₂O", "ATP"
+          ],
+          "missing_expected_features": [],
+          "unexpected_features": [],
+          "clarity_issues": ["none"],
+          "confidence": "high"
+        },
+        "stem_image_alignment": {
+          "all_stem_image_claims_supported": true,
+          "keyed_answer_visually_supported": true,
+          "counts_toward_25_percent_quota": true,
+          "verdict": "PASS"
+        }
+      },
+      "source_section_title": "7.4 Oxidative Phosphorylation"
+    },
+    "Q03": {
+      "pass1": {
+        "target_curriculum_outcome": "20–C1.1k, 20–C1.2k",
+        "intended_concept": "Chloroplast compartments: thylakoids/grana vs stroma for Calvin cycle location",
+        "item_skill": "Locate Calvin-cycle enzymes using chloroplast structure",
+        "image_role": "evidence_required",
+        "visual_features_required": [
+          "chloroplast cutaway or diagram",
+          "visible thylakoid stacks / grana",
+          "stroma region distinguishable from thylakoid lumen",
+          "structure suitable for asking stroma vs thylakoid-only"
+        ],
+        "forbidden_mismatches": [
+          "mitochondrion-only diagram",
+          "whole-leaf photo without chloroplast interior",
+          "Calvin cycle pathway chart with no chloroplast outline"
+        ],
+        "why_the_image_is_needed_for_this_item": "Students must use spatial structure (stroma surrounding grana) to choose where Calvin enzymes operate."
+      },
+      "pass2": {
+        "figure_caption_verified": "Figure 8.1 (variant): Chloroplast overview — light reactions vs Calvin cycle in stroma (bundle media Figure_08_01_06-40d9.jpg; do not substitute other Figure_08_02_01* filenames).",
+        "actual_visual_read": {
+          "figure_type": "chloroplast diagram with granum stacks, stroma, and Calvin cycle region",
+          "visible_features": ["outer/inner envelope", "thylakoid stacks (grana)", "stroma", "light-dependent vs Calvin regions as one overview"],
+          "readable_labels": ["stroma", "granum", "thylakoid", "Calvin cycle (wording varies)", "light (wording varies)"],
+          "missing_expected_features": [],
+          "unexpected_features": [],
+          "clarity_issues": ["none"],
+          "confidence": "high"
+        },
+        "stem_image_alignment": {
+          "all_stem_image_claims_supported": true,
+          "keyed_answer_visually_supported": true,
+          "counts_toward_25_percent_quota": true,
+          "verdict": "PASS"
+        }
+      },
+      "source_section_title": "8.1 Overview of photosynthesis (chloroplast context)"
+    },
+    "Q06": {
+      "pass1": {
+        "target_curriculum_outcome": "20–C1.2k",
+        "intended_concept": "Calvin cycle: reduction phase consumes ATP and NADPH",
+        "item_skill": "Identify Calvin-cycle stage that uses ATP and NADPH from the diagram",
+        "image_role": "evidence_required",
+        "visual_features_required": [
+          "three-stage Calvin depiction (fixation, reduction, regeneration) or equivalent labeled stages",
+          "reduction stage visually tied to ATP/NADPH inputs"
+        ],
+        "forbidden_mismatches": [
+          "light-reactions-only Z-scheme without Calvin stages",
+          "mitochondrial Krebs cycle figure"
+        ],
+        "why_the_image_is_needed_for_this_item": "The question names Calvin stages; the figure must show those stages so the reduction stage is identifiable."
+      },
+      "pass2": {
+        "figure_caption_verified": "Figure 8.3: Calvin cycle with labeled phases (bundle media Figure_08_03_02.png; Figure_08_03_05.png is unrelated genetics in this bundle).",
+        "actual_visual_read": {
+          "figure_type": "Calvin cycle overview with three labeled phases",
+          "visible_features": ["Phase 1 carbon fixation", "Phase 2 reduction", "Phase 3 regeneration of RuBP", "ATP and NADPH inputs to reduction"],
+          "readable_labels": ["Phase 1: Carbon Fixation", "Phase 2: Reduction", "Phase 3: Regeneration of RuBP", "RuBP", "ATP", "NADPH"],
+          "missing_expected_features": [],
+          "unexpected_features": [],
+          "clarity_issues": ["none"],
+          "confidence": "high"
+        },
+        "stem_image_alignment": {
+          "all_stem_image_claims_supported": true,
+          "keyed_answer_visually_supported": true,
+          "counts_toward_25_percent_quota": true,
+          "verdict": "PASS"
+        }
+      },
+      "source_section_title": "8.3 Using light energy to make organic molecules"
+    },
+    "Q08": {
+      "pass1": {
+        "target_curriculum_outcome": "20–C2.1k",
+        "intended_concept": "Citric acid (Krebs) cycle location in mitochondria",
+        "item_skill": "Identify compartment for Krebs from pathway diagram",
+        "image_role": "evidence_required",
+        "visual_features_required": [
+          "citric acid cycle pathway or mitochondrial matrix context",
+          "labels or layout indicating matrix vs intermembrane space / inner membrane"
+        ],
+        "forbidden_mismatches": [
+          "glycolysis-only cytoplasm diagram",
+          "chloroplast Calvin figure"
+        ],
+        "why_the_image_is_needed_for_this_item": "The answer (matrix) must be justified from the figure’s mitochondrial context, not from recall alone."
+      },
+      "pass2": {
+        "figure_caption_verified": "Figure 7.3 (variant): Citric acid cycle (bundle media Figure_07_03_02.jpg).",
+        "actual_visual_read": {
+          "figure_type": "citric acid cycle pathway in mitochondrial matrix",
+          "visible_features": ["cyclic pathway of oxidations", "mitochondrial matrix labeling or implied compartment"],
+          "readable_labels": ["citrate", "NADH", "FADH2", "CO2", "matrix (wording varies)"],
+          "missing_expected_features": [],
+          "unexpected_features": [],
+          "clarity_issues": ["none"],
+          "confidence": "high"
+        },
+        "stem_image_alignment": {
+          "all_stem_image_claims_supported": true,
+          "keyed_answer_visually_supported": true,
+          "counts_toward_25_percent_quota": true,
+          "verdict": "PASS"
+        }
+      },
+      "source_section_title": "7.3 Oxidation of pyruvate and the citric acid cycle"
+    },
+    "Q12": {
+      "pass1": {
+        "target_curriculum_outcome": "20–C2.2k",
+        "intended_concept": "Aerobic respiration overview: largest net ATP from oxidative phosphorylation",
+        "item_skill": "Read overview map and identify stage with most net ATP per glucose",
+        "image_role": "evidence_required",
+        "visual_features_required": [
+          "four labeled stages in aerobic sequence ending in oxidative phosphorylation (glycolysis through ETC)",
+          "visual emphasis or logical placement showing oxidative phosphorylation as the culmination of aerobic glucose catabolism"
+        ],
+        "forbidden_mismatches": [
+          "single-pathway glycolysis-only figure",
+          "photosynthesis overview only"
+        ],
+        "why_the_image_is_needed_for_this_item": "The stem asks which stage dominates net ATP; the overview diagram supplies the comparative structure."
+      },
+      "pass2": {
+        "figure_caption_verified": "Figure (Ch. 7.6 metabolic connections): aerobic respiration flow — glycolysis, pyruvate oxidation, citric acid cycle, oxidative phosphorylation (bundle media Figure_07_06_02.png).",
+        "actual_visual_read": {
+          "figure_type": "horizontal aerobic respiration stage map plus nutrient-entry callouts",
+          "visible_features": [
+            "Glycolysis → Pyruvate oxidation → Citric acid cycle → Oxidative phosphorylation (boxed sequence)",
+            "optional nutrient-entry labels feeding early stages (carbohydrate/amino acids/glycerol, fatty acids, etc.)"
+          ],
+          "readable_labels": [
+            "Glycolysis",
+            "Pyruvate oxidation",
+            "Citric acid cycle",
+            "Oxidative phosphorylation"
+          ],
+          "missing_expected_features": [],
+          "unexpected_features": [],
+          "clarity_issues": ["none"],
+          "confidence": "high"
+        },
+        "stem_image_alignment": {
+          "all_stem_image_claims_supported": true,
+          "keyed_answer_visually_supported": true,
+          "counts_toward_25_percent_quota": true,
+          "verdict": "PASS"
+        }
+      },
+      "source_section_title": "7.6 Connections of carbohydrate, protein, and lipid metabolic pathways"
+    },
+    "Q19": {
+      "pass1": {
+        "target_curriculum_outcome": "20–C1.1k, 20–C1.3s",
+        "intended_concept": "Action spectrum / Engelmann-style reasoning: photosynthetic rate vs wavelength",
+        "item_skill": "Interpret multi-panel wavelength demonstration",
+        "image_role": "evidence_required",
+        "visual_features_required": [
+          "multiple panels comparing illumination conditions or wavelengths",
+          "filament / bacterial-indicator layout consistent with Engelmann-style reasoning"
+        ],
+        "forbidden_mismatches": [
+          "single absorption spectrum graph without panels/filament context",
+          "unrelated ecological photo"
+        ],
+        "why_the_image_is_needed_for_this_item": "The stem references panels and bacterial clustering; the figure must show that comparative layout."
+      },
+      "pass2": {
+        "figure_caption_verified": "Figure 8.2 (variant): Action spectrum / Engelmann-style panels (bundle media Figure_08_02_05abcd-d386.jpg).",
+        "actual_visual_read": {
+          "figure_type": "four-panel wavelength / bacterial distribution comparison",
+          "visible_features": ["panels labeled a–d", "prism or wavelength separation", "filament with bacterial clusters differing by region"],
+          "readable_labels": ["a", "b", "c", "d", "red", "green", "violet/blue (as present)"],
+          "missing_expected_features": [],
+          "unexpected_features": [],
+          "clarity_issues": ["none"],
+          "confidence": "high"
+        },
+        "stem_image_alignment": {
+          "all_stem_image_claims_supported": true,
+          "keyed_answer_visually_supported": true,
+          "counts_toward_25_percent_quota": true,
+          "verdict": "PASS"
+        }
+      },
+      "source_section_title": "8.2 Light-dependent reactions of photosynthesis"
+    },
+    "Q21": {
+      "pass1": {
+        "target_curriculum_outcome": "20–C1.1k",
+        "intended_concept": "Light reactions output ATP and NADPH for Calvin cycle",
+        "item_skill": "Identify outputs of thylakoid electron flow from diagram",
+        "image_role": "evidence_required",
+        "visual_features_required": [
+          "photosystems and/or thylakoid ETC depiction",
+          "ATP and NADPH shown as products feeding Calvin cycle (or clearly implied)"
+        ],
+        "forbidden_mismatches": [
+          "Calvin cycle only with no photosystems",
+          "mitochondrial ETC figure"
+        ],
+        "why_the_image_is_needed_for_this_item": "The keyed answer (ATP and NADPH) must be visible products in the light-reaction diagram."
+      },
+      "pass2": {
+        "figure_caption_verified": "Figure 8.2 (variant): Light reactions — photosystems and thylakoid electron transport (bundle media Figure_08_02_08-e4a1.jpg; Figure_08_02_06.png is unrelated genetics in this bundle).",
+        "actual_visual_read": {
+          "figure_type": "photosystems with electron transport in thylakoid membrane",
+          "visible_features": ["photosystem II", "photosystem I", "electron transport chain", "ATP synthase", "NADPH production", "thylakoid lumen vs stroma"],
+          "readable_labels": ["PS II", "PS I", "ATP", "NADPH", "Pq", "Cyt", "Pc", "Fd", "ATP synthase (as labeled)"],
+          "missing_expected_features": [],
+          "unexpected_features": [],
+          "clarity_issues": ["none"],
+          "confidence": "high"
+        },
+        "stem_image_alignment": {
+          "all_stem_image_claims_supported": true,
+          "keyed_answer_visually_supported": true,
+          "counts_toward_25_percent_quota": true,
+          "verdict": "PASS"
+        }
+      },
+      "source_section_title": "8.2 Light-dependent reactions of photosynthesis"
+    },
+    "Q23": {
+      "pass1": {
+        "target_curriculum_outcome": "20–A3.2k, 20–C1.2k",
+        "intended_concept": "Photosynthesis summary: CO2 and H2O inputs; glucose and O2 outputs; link to gas cycling",
+        "item_skill": "Connect summary diagram to global CO2/O2 cycling language",
+        "image_role": "evidence_required",
+        "visual_features_required": [
+          "summary-level photosynthesis equation or reactant/product diagram",
+          "CO2 and H2O as inputs and O2 (and carbohydrate) as outputs"
+        ],
+        "forbidden_mismatches": [
+          "cellular respiration-only summary",
+          "leaf cross-section with no reaction summary"
+        ],
+        "why_the_image_is_needed_for_this_item": "The stem references what the summary diagram emphasizes about inputs/outputs; students must read that summary."
+      },
+      "pass2": {
+        "figure_caption_verified": "Figure 8.1 — summary of photosynthesis (bundle media Figure_08_01_04.jpg).",
+        "actual_visual_read": {
+          "figure_type": "photosynthesis summary (inputs/outputs)",
+          "visible_features": ["CO2", "H2O", "light energy", "glucose/carbohydrate product", "O2 output"],
+          "readable_labels": ["carbon dioxide", "water", "oxygen", "glucose", "light"],
+          "missing_expected_features": [],
+          "unexpected_features": [],
+          "clarity_issues": ["none"],
+          "confidence": "high"
+        },
+        "stem_image_alignment": {
+          "all_stem_image_claims_supported": true,
+          "keyed_answer_visually_supported": true,
+          "counts_toward_25_percent_quota": true,
+          "verdict": "PASS"
+        }
+      },
+      "source_section_title": "8.1 Overview of photosynthesis"
+    }
+  }
+}

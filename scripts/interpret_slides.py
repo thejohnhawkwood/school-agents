@@ -102,10 +102,79 @@ def classify_visual(text: str) -> tuple[str, str]:
     return "illustration", "medium"
 
 
+def readable_alpha_ratio(text: str) -> float:
+    letters = sum(ch.isalpha() for ch in text)
+    total = len(text.replace(" ", ""))
+    if total == 0:
+        return 0.0
+    return letters / total
+
+
+def vowel_ratio(text: str) -> float:
+    letters = [ch.lower() for ch in text if ch.isalpha()]
+    if not letters:
+        return 0.0
+    vowels = sum(ch in "aeiou" for ch in letters)
+    return vowels / len(letters)
+
+
+def keyword_hit_count(text: str) -> int:
+    lower = text.lower()
+    keywords = [
+        "kidney",
+        "renal",
+        "glomerulus",
+        "nephron",
+        "tubule",
+        "bladder",
+        "ureter",
+        "urethra",
+        "liver",
+        "lung",
+        "skin",
+        "blood",
+        "filtration",
+        "reabsorption",
+        "secretion",
+        "urine",
+        "urea",
+        "ammonia",
+        "capsule",
+        "medulla",
+        "cortex",
+        "pelvis",
+        "aldosterone",
+        "adh",
+    ]
+    return sum(1 for k in keywords if k in lower)
+
+
+def looks_like_coherent_instructional_ocr(ocr_text: str) -> bool:
+    ocr = clean_text(ocr_text)
+    if len(ocr) < 35:
+        return False
+    if readable_alpha_ratio(ocr) < 0.55:
+        return False
+    wrds = ocr.split()
+    if len(wrds) < 6:
+        return False
+    uniq = len({w.lower() for w in wrds})
+    if uniq / max(len(wrds), 1) < 0.55:
+        return False
+    if vowel_ratio(ocr) < 0.28:
+        return False
+    if keyword_hit_count(ocr) < 2:
+        return False
+    return True
+
+
 def is_instructional_visual(visual_type: str, ocr_text: str, slide_text: str) -> bool:
     if visual_type == "unknown_or_decorative":
         return False
     if len(ocr_text) < 20 and len(slide_text) < 20:
+        return False
+    # Long OCR isn't automatically instructional if it's mostly gibberish/low-signal OCR noise.
+    if len(ocr_text) >= 35 and not looks_like_coherent_instructional_ocr(ocr_text):
         return False
     return True
 

@@ -7,6 +7,8 @@ Build a local, auditable workflow that interprets lesson slides as combined text
 - Treat each slide/page as `text + image evidence`.
 - Produce structured per-slide summaries with traceability.
 - Generate classroom-ready homework (5 standard + 1 diagram/image question), teacher key, and audit.
+- Homework language should read like a teacher wrote it: specific, student-facing, and visual-aware
+  (not internal generation phrasing or “teaching point” boilerplate).
 - Avoid invented details from ambiguous visuals.
 - Flag low-confidence slides for teacher review.
 

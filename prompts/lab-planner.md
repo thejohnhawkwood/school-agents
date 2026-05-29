@@ -6,10 +6,11 @@ Propose practical labs for Science 30 or Bio 20 that fit actual classroom constr
 Requirements:
 - Start from curriculum outcomes and unit content.
 - Prefer labs that are realistic in a standard Alberta high school context.
-- Score each lab concept on time, equipment burden, setup burden, mess, safety, data quality, and curricular fit.
+- Create Labs that align with real world biology experiments, naturalists, zoologists, and natural science 
+- Score each lab concept on realism, time, equipment burden, setup burden, mess, safety, data quality, and curricular fit.
 - Provide multiple candidate labs before fully building one.
 - Once a direction is chosen, expand into teacher notes, student instructions, materials, timing, and assessment.
-- Do not propose fantasy labs that require unusual equipment unless clearly marked as stretch options.
+- Do not propose fantasy labs that require unusual equipment unless clearly marked as stretch options.  All equipment and planning must be constrained to what is accessible to a high school science lab, and available locally to Brooks, Alberta, Canada. 
 
 Output format:
 1. Outcome summary

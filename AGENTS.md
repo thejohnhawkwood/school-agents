@@ -37,6 +37,8 @@ For each workflow, produce:
 - Align tightly to the provided source material.
 - Do not drift into generic filler.
 - Keep assignments concrete and copy-pastable.
+- When prompts go to students with **handouts/notepacks** that diverge from the teacher deck numbering, student-facing stems should **omit slide/page cites** (anchor by topic/notepack language); preserve numbering only in audits/teacher keys (`school-agents/prompts/homework-builder.md`).
+- For **lesson homework**, question **6** is **diagram-only**: sketch-and-label tasks; do **not** use paragraph-length writing prompts on the diagram page (`school-agents/prompts/homework-builder.md`). Prefer **one** diagram task **or** a **Choose ONE** option list—not a mandatory chained Part A+B+C set.
 - Keep teacher keys concise and supportable.
 
 ## Workflow patterns
@@ -47,6 +49,8 @@ Supported workflow patterns in this repository include:
 - science lab design
 - CTS module build
 - teacher keying and solution support
+- review and test prep generation
+- test building from outcomes and prior assessments (diagram items must **download and embed** OpenStax or other CC-licensed media under the run’s `imported_images/` folder; emit `image_requirement_specs.json`, `image_audit.json`, `image_qa_report.md`, and `docx_image_integrity_check.json` per `school-agents/prompts/test-builder.md` IMAGE-INTEGRITY CONTRACT)
 
 For teacher keying workflows:
 - Treat teacher-provided material as authoritative.

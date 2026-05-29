@@ -16,6 +16,8 @@ Workflow types:
 - lab_design
 - cts_module_build
 - teacher_keying
+- review_test_prep
+- test_builder
 
 Rules:
 - Do not generate before confirming source boundaries.

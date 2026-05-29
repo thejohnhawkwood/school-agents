@@ -1,0 +1,41 @@
+{
+  "test_id": "example-physics-unit2-v1",
+  "title": "Example minimal item spec (for QA/shuffle tooling)",
+  "items": [
+    {
+      "id": "Q1",
+      "type": "multiple_choice",
+      "outcomes": ["P30-1.1"],
+      "points": 1,
+      "choices": ["4.0 m/s", "9.8 m/s²", "2.0 J", "0 N"],
+      "correct_index": 1,
+      "answer_key": "B"
+    },
+    {
+      "id": "Q2",
+      "type": "matching",
+      "outcomes": ["P30-2.3"],
+      "points": 2,
+      "left_prompts": [
+        { "id": "L1", "text": "Newton's first law" },
+        { "id": "L2", "text": "Newton's second law" }
+      ],
+      "right_options": [
+        { "id": "R1", "text": "F = ma" },
+        { "id": "R2", "text": "Inertia" },
+        { "id": "R3", "text": "Action/reaction pair" }
+      ],
+      "correct_map": { "L1": "R2", "L2": "R1" }
+    },
+    {
+      "id": "Q3",
+      "type": "diagram_labeling",
+      "outcomes": ["P30-3.0"],
+      "points": 1,
+      "word_bank": ["convex", "concave", "focal point", "principal axis"],
+      "blanks": [
+        { "label": "A", "correct": "focal point" }
+      ]
+    }
+  ]
+}
